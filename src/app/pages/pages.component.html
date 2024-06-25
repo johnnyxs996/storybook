@@ -1,0 +1,21 @@
+<app-page [pageConfig]="pageConfig()"></app-page>
+
+<!-- Footer content -->
+<div nz-row nzJustify="center" class="footer-wrapper">
+  <div nz-col nzSpan="18">
+    <div nz-row>
+      @if(!isFirstPage()) {
+        <button style="position: absolute; left: 0" nz-button nzType="default" nzSize="large" nzShape="round" (click)="onPreviousPageClick()">
+          <span nz-icon nzType="left" nzTheme="outline"></span>
+          Indietro
+        </button>
+      }
+      @if(!isLastPage()) {
+        <button style="position: absolute; right: 0" nz-button nzType="primary" nzSize="large" nzShape="round" (click)="onNextPageClick()">
+          Avanti
+          <span nz-icon nzType="right" nzTheme="outline"></span>
+        </button>
+      }
+    </div>
+  </div>
+</div>

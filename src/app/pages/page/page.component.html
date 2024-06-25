@@ -1,0 +1,45 @@
+<div>
+  <div nz-col nzSpan="24">
+    @if (pageHeaderImage()) {
+      <div nz-row>
+        <img src="{{ pageHeaderImage() }}" alt="Header image" class="heading-img">
+      </div>
+    }
+
+    <!-- Heading content -->
+    <div nz-row nzJustify="center">
+      <div nz-col nzSpan="18" class="heading-title">
+        @if (pageTitle()) {
+          <h1>{{ pageTitle() }}</h1>
+        }
+        @if (pageSubtitle()) {
+          <h2>{{ pageSubtitle() }}</h2>
+        }
+        @if (pageSubSubtitle()) {
+          <h3>{{ pageSubSubtitle() }}</h3>
+        }
+      </div>
+    </div>
+
+    <div nz-row nzJustify="center">
+      @for(item of pageContent(); track $index) {
+        @if(item.type === 'text') {
+          <!-- Text content -->
+          <div nz-col nzSpan="18">
+            <p>{{ item.content }}</p>
+          </div>
+        }
+        @if(item.type === 'image') {
+          <!-- Images content -->
+          <div nz-row [nzGutter]="[12, 12]">
+            @for(imagePath of item.content; track $index) {
+              <div nz-col [nzSpan]="getImageSpanSize(item, imagePath)">
+                <img [src]="imagePath">
+              </div>
+            }
+          </div>
+        }
+      }
+    </div>
+  </div>
+</div>
