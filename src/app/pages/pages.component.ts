@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { map } from 'rxjs';
@@ -18,7 +19,8 @@ import { PagesConfigurations } from './pages.config';
     PageComponent,
     NzButtonModule,
     NzGridModule,
-    NzIconModule
+    NzIconModule,
+    NzDividerModule
   ],
   templateUrl: './pages.component.html',
   styleUrl: './pages.component.scss'
