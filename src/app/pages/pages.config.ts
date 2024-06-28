@@ -49,7 +49,7 @@ export const PagesConfigurations: PageConfiguration[] = [
     content: [
       {
         type: 'text',
-        content: `Sappiamo bene quanti sacrifici hai fatto durante questo percorso, e tra questi vi è quello del non essere mai riuscita ad organizzare la vacanza o il weekend dei tuoi sogni, vuoi per non gravare sui tuoi genitori, vuoi per le sessioni nel bel mezzo della stagione ☀️.`
+        content: `Sappiamo bene quanti sacrifici hai fatto durante questo percorso, e tra questi vi è quello di non essere mai riuscita ad organizzare la vacanza o il weekend dei tuoi sogni, vuoi per non gravare sui tuoi genitori, vuoi per le sessioni nel bel mezzo della stagione ☀️.`
       },
       {
         type: 'image',
@@ -79,7 +79,7 @@ export const PagesConfigurations: PageConfiguration[] = [
       },
       {
         type: 'text',
-        content: `Che sia in Europa, in Italia o a Melito di Napoli, con questo budget hai la possibilità di scegliere l'allogio che più desideri.`
+        content: `Che sia in Europa, in Italia, o a Melito di Napoli, con questo budget hai la possibilità di scegliere l'allogio che più desideri.`
       },
       {
         type: 'image',
