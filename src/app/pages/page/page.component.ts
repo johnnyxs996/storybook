@@ -30,10 +30,10 @@ export class PageComponent {
   constructor() {
     effect(() => {
       const _ = this.pageConfig();
-      window.scroll({ 
-        top: 0, 
-        left: 0, 
-        behavior: 'smooth' 
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
        });
     })
   }
@@ -41,6 +41,10 @@ export class PageComponent {
   getImageSpanSize(content: PageConfigurationContent, currentPath: string): number {
     const imagePaths = content.content;
     const totalImages = imagePaths.length;
+    const isSingleImage = totalImages === 1;
+    if (isSingleImage) {
+      return 24;
+    }
     const evenImagesNumber = totalImages % 2 === 0;
     if (evenImagesNumber) {
       return 12;
