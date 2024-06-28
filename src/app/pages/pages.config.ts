@@ -18,11 +18,11 @@ export const PagesConfigurations: PageConfiguration[] = [
       {
         type: 'image',
         content: [
-          'assets/image-1.jpg',
-          'assets/image-2.jpg',
-          'assets/image-3.webp',
-          'assets/image-4.jpg',
-          'assets/image-5.jpeg',
+          'assets/comunione.jpg',
+          'assets/mare2.jpg',
+          'assets/scudetto2.jpg',
+          'assets/negramaro2.jpg',
+          'assets/roby_dottoressa.jpg',
         ]
       },
       {
@@ -43,9 +43,9 @@ export const PagesConfigurations: PageConfiguration[] = [
       {
         type: 'image',
         content: [
-          'assets/image-1.jpg',
-          'assets/image-3.webp',
-          'assets/image-5.jpeg',
+          'assets/ercolano.jpg',
+          'assets/negramaro.jpg',
+          'assets/scudetto.jpg',
         ]
       },
       {
@@ -71,8 +71,9 @@ export const PagesConfigurations: PageConfiguration[] = [
       {
         type: 'image',
         content: [
-          'assets/image-1.jpg',
-          'assets/image-3.webp',
+          'assets/comunione2.jpg',
+          'assets/scudetto3.jpg',
+          'assets/comunione3.jpg',
         ]
       },
       {
@@ -99,14 +100,14 @@ export const PagesConfigurations: PageConfiguration[] = [
       {
         type: 'image',
         content: [
-          'assets/image-1.jpg',
-          'assets/image-3.webp',
+          'assets/mare.jpg',
+          'assets/palazzoreale.jpg'
         ]
       },
       {
         type: 'text',
         content: `Congratulazioni dottoressa Frate! Questo è il tuo giorno, goditelo appieno.
-        
+
         Con affetto,
         Johnny e Jole ❤️`
       }
