@@ -9,9 +9,7 @@ export const PagesConfigurations: PageConfiguration[] = [
     content: [
       {
         type: 'text',
-        content: `Cara Roby,
-        è finalmente arrivato il giorno tanto atteso, quello che abbiamo tanto aspettato e sognato con ansia, quello per cui hai lavorato duramente in tutto questo tempo.
-        `
+        content: `Cara Robi, è finalmente arrivato il giorno tanto atteso, quello che abbiamo tanto aspettato e sognato con ansia, quello per cui hai lavorato duramente in tutto questo tempo.`
       },
       {
         type: 'text',
